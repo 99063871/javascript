@@ -62,23 +62,20 @@
  			var getal = prompt("hoeveel wilt u erbij rekenen?")
  			getal = parseInt(getal);
  			var antwoord = 12 + getal;
- 			document.write("12+" + getal + "=" + antwoord)
- 			document.write("<br>")
 
- 			var getal = prompt("door hoeveel wilt u het vermenigvuldigen?")
- 			getal = parseInt(getal);
- 			var antwoord2 = antwoord * getal;
- 			document.write(antwoord + "*" + getal + "=" + antwoord2)
- 			document.write("<br>")
+ 			var getal1 = prompt("door hoeveel wilt u het vermenigvuldigen?")
+ 			getal1 = parseInt(getal1);
+ 			var antwoord1 = antwoord * getal1;
 
- 			var getal = prompt("door hoeveel wilt u het delen?")
- 			var antwoord = antwoord2 / getal;
- 			document.write(antwoord2 + ":" + getal + "=" + antwoord)
- 			document.write("<br>")
+ 			var getal2 = prompt("door hoeveel wilt u het delen?")
+ 			var antwoord2 = antwoord1 / getal2;
 
- 			var getal = prompt("hoeveel wilt u eraf halen?")
- 			var antwoord2 = antwoord - getal;
- 			document.write(antwoord + "-" + getal + "=" + antwoord2)
+ 			var getal3 = prompt("hoeveel wilt u eraf halen?")
+ 			var antwoord3 = antwoord2 - getal3
+ 			document.write("12+" + getal + "=" + antwoord + "<br>" +
+ 				antwoord + "*" + getal1 + "=" + antwoord1 + "<br>" +
+ 				antwoord1 + ":" + getal2 + "=" + antwoord2 + "<br>" +
+ 				antwoord2 + "-" + getal3 + "=" + antwoord3)
  		</script>
  	</body>
  </html>
